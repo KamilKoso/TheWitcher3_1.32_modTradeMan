@@ -1,0 +1,12 @@
+;meta[language=pl]
+;id|key(hex)|key(str)|text
+2110006000||panel_Mods|Mods
+2110006001||panel_TradeMan_Main|TradeMan
+2110006002||preset_Mods_TradeMan_Main|TradeMan Options
+2110006003||preset_value_TradeMan_Default|Default Settings
+2110006004||preset_value_TradeMan_RichMerchants|Rich Merchants
+2110006005||preset_value_TradeMan_FairMerchants|Fair Merchants
+2110006006||option_TradeMan_Funds|[%] How much crowns merchants have (100 = 1x; 200 = 2x; 50 = 0.5x)
+2110006007||option_TradeMan_DaysToFunds|[Days] How often merchants refresh crowns
+2110006008||option_TradeMan_ShopMult|[%] Merchants goods worth multiplier (100 = 1x; 200 = 2x; 50 = 0.5x)
+2110006009||option_TradeMan_PlayerMult|[%] Player goods worth multiplier (100 = 1x; 200 = 2x; 50 = 0.5x)

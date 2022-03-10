@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="TradeMan_Main" displayName="Mods.TradeMan_Main">
+		<PresetsArray>
+			<!-- PRESETS GO HERE -->
+			<Preset id="0" displayName="TradeMan_Default">
+				<Entry varId="TradeMan_Funds" 		 value="100"/>
+				<Entry varId="TradeMan_DaysToFunds"  value="5"/>
+				<Entry varId="TradeMan_ShopMult" 	 value="100"/>
+				<Entry varId="TradeMan_PlayerMult"	 value="100"/>
+			</Preset>
+			<Preset id="1" displayName="TradeMan_RichMerchants">
+				<Entry varId="TradeMan_Funds" 		 value="200"/>
+			</Preset>
+			<Preset id="2" displayName="TradeMan_FairMerchants">
+				<Entry varId="TradeMan_PlayerMult" 	 value="150"/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<!-- VARS GO HERE -->
+			<Var id="TradeMan_Funds" displayName="TradeMan_Funds" displayType="SLIDER;0;500;500"/>
+			<Var id="TradeMan_DaysToFunds" displayName="TradeMan_DaysToFunds" displayType="SLIDER;1;30;29"/>
+			<Var id="TradeMan_ShopMult" displayName="TradeMan_ShopMult" displayType="SLIDER;0;500;500"/>
+			<Var id="TradeMan_PlayerMult" displayName="TradeMan_PlayerMult" displayType="SLIDER;0;500;500"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>

@@ -1,0 +1,51 @@
+set my_id=6
+set homepath=%~dp0
+
+call w3strings.exe --encode csv\ar.csv --id-space %my_id%
+call w3strings.exe --encode csv\br.csv --id-space %my_id%
+call w3strings.exe --encode csv\cz.csv --id-space %my_id%
+call w3strings.exe --encode csv\de.csv --id-space %my_id%
+call w3strings.exe --encode csv\en.csv --id-space %my_id%
+call w3strings.exe --encode csv\es.csv --id-space %my_id%
+call w3strings.exe --encode csv\fr.csv --id-space %my_id%
+call w3strings.exe --encode csv\hu.csv --id-space %my_id%
+call w3strings.exe --encode csv\it.csv --id-space %my_id%
+call w3strings.exe --encode csv\jp.csv --id-space %my_id%
+call w3strings.exe --encode csv\kr.csv --id-space %my_id%
+call w3strings.exe --encode csv\ru.csv --id-space %my_id%
+call w3strings.exe --encode csv\zh.csv --id-space %my_id%
+call w3strings.exe --encode csv\pl.csv --id-space %my_id%
+
+del csv\ar.csv.w3strings.ws
+del csv\br.csv.w3strings.ws
+del csv\cz.csv.w3strings.ws
+del csv\de.csv.w3strings.ws
+del csv\en.csv.w3strings.ws
+del csv\es.csv.w3strings.ws
+del csv\fr.csv.w3strings.ws
+del csv\hu.csv.w3strings.ws
+del csv\it.csv.w3strings.ws
+del csv\jp.csv.w3strings.ws
+del csv\kr.csv.w3strings.ws
+del csv\ru.csv.w3strings.ws
+del csv\zh.csv.w3strings.ws
+del csv\pl.csv.w3strings.ws
+
+move csv\ar.csv.w3strings "%homepath%w3strings\ar.w3strings"
+move csv\br.csv.w3strings "%homepath%w3strings\br.w3strings"
+move csv\cz.csv.w3strings "%homepath%w3strings\cz.w3strings"
+move csv\de.csv.w3strings "%homepath%w3strings\de.w3strings"
+move csv\en.csv.w3strings "%homepath%w3strings\en.w3strings"
+move csv\es.csv.w3strings "%homepath%w3strings\es.w3strings"
+move csv\fr.csv.w3strings "%homepath%w3strings\fr.w3strings"
+move csv\hu.csv.w3strings "%homepath%w3strings\hu.w3strings"
+move csv\it.csv.w3strings "%homepath%w3strings\it.w3strings"
+move csv\jp.csv.w3strings "%homepath%w3strings\jp.w3strings"
+move csv\kr.csv.w3strings "%homepath%w3strings\kr.w3strings"
+move csv\ru.csv.w3strings "%homepath%w3strings\ru.w3strings"
+move csv\zh.csv.w3strings "%homepath%w3strings\zh.w3strings"
+move csv\pl.csv.w3strings "%homepath%w3strings\pl.w3strings"
+
+
+
+pause
